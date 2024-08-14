@@ -8,3 +8,9 @@ hazelcast:
   join:
   multicast:
   enabled: true
+
+management:
+  tracing:
+    sampling:
+      probability: 1
+ This property must be added in application.yml file, in order to see logs in zipkin
